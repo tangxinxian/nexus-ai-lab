@@ -36,8 +36,8 @@ Nexus/
 ├── prompts/
 ├── docs/
 │   ├── plans/
-│   │   ├── nexus-ai-internship-plan.docx
-│   │   └── week01-detailed-plan.docx
+│   │   ├── nexus-ai-internship-plan.md
+│   │   └── week01-detailed-plan.md
 │   ├── logs/
 │   │   └── day01-environment-setup.md
 │   ├── notes/
