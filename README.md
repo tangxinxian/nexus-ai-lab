@@ -50,7 +50,7 @@ Nexus/
 
 ## 文档说明
 
-- `docs/plans/`：项目规划文档，`.docx` 用于正式归档，后续可补充 `.md` 用于 GitHub 在线阅读
+- `docs/plans/`：项目规划文档，使用 Markdown 格式方便 GitHub 在线阅读
 - `docs/logs/`：每日开发日志，记录每日目标、完成内容、问题与复盘
 - `docs/notes/`：学习笔记，记录 Prompt、API、FastAPI、Pydantic 等知识点
 - `docs/images/`：环境截图、运行截图、接口截图
