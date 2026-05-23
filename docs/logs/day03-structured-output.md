@@ -18,7 +18,7 @@
 - [x] 实现安全解析函数 `safe_parse_summary` / `safe_parse_classify` / `safe_parse_extract`
 - [x] 完成正常数据本地测试
 - [x] 完成异常数据本地测试
-- [ ] 与 LLM API 连接测试，延期到 D4 ModelClient 阶段
+- [x] 与 LLM API 连接测试，延期到 D4 ModelClient 阶段
 
 ## 测试记录
 
@@ -49,3 +49,29 @@ Pydantic 能够捕获错误并输出明确的校验信息。
 ## 明日计划
 
 D4 将学习 LLM API 调用，重点封装 ModelClient，支持普通输出、流式输出和结构化输出。
+
+## 遗留任务完成记录
+
+D4 完成 `ModelClient` 后，已补充完成 D3 结构化输出与 LLM API 的连接测试。
+
+- [x] 与 LLM API 连接测试
+- [x] 使用 API 测试 summary 结构化输出
+- [x] 使用 API 测试 classify 结构化输出
+- [x] 使用 API 测试 extract 结构化输出
+- [x] 使用 Pydantic 对模型输出进行校验
+
+## API 测试命令
+
+```powershell
+python -m tests.structured_output_api_test
+```
+
+## 测试结果文档
+
+```text
+docs/notes/structured-output-api-test-results.md
+```
+
+## D3 最终结论
+
+D3 已完成结构化输出的本地模型定义、异常校验和 LLM API 连接测试。SummaryResult、ClassifyResult、ExtractResult 可用于后续 Nexus Research 的摘要、分类和实体抽取能力。
